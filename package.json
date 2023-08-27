@@ -10,8 +10,8 @@
     "start": "pnpm run dev",
     "dev": "dumi dev",
     "test": "jest",
-    "pub":"pnpm run build && pnpm -r --filter=./packages/* publish",
-    "pub:beta":"pnpm run build && pnpm -r --filter=./packages/* publish --tag beta",
+    "pub": "pnpm run build && pnpm -r --filter=./packages/* publish",
+    "pub:beta": "pnpm run build && pnpm -r --filter=./packages/* publish --tag beta",
     "build": "pnpm -r --filter=./packages/hooks run build",
     "cd-fe-lint-scan": "cd-fe-lint scan",
     "cd-fe-lint-fix": "cd-fe-lint fix"
@@ -41,7 +41,6 @@
     "cross-env": "^7.0.3",
     "del": "^5.1.0",
     "dumi": "^1.1.48",
-    "encode-fe-lint": "^1.0.3",
     "eslint": "^7.2.0",
     "eslint-plugin-react-hooks": "^4.0.8",
     "fast-glob": "^3.2.11",

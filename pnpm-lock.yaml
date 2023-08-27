@@ -71,9 +71,6 @@ importers:
       dumi:
         specifier: ^1.1.48
         version: 1.1.48(react-dom@18.2.0)(react-router@6.4.2)(react@18.2.0)(typescript@5.2.2)
-      encode-fe-lint:
-        specifier: ^1.0.3
-        version: 1.0.3(typescript@5.2.2)
       eslint:
         specifier: ^7.2.0
         version: 7.2.0
@@ -2541,7 +2538,7 @@ packages:
         optional: true
     dependencies:
       '@eslint-community/regexpp': 4.7.0
-      '@typescript-eslint/parser': 5.62.0(eslint@8.47.0)(typescript@5.2.2)
+      '@typescript-eslint/parser': 5.62.0(eslint@7.2.0)(typescript@5.2.2)
       '@typescript-eslint/scope-manager': 5.62.0
       '@typescript-eslint/type-utils': 5.62.0(eslint@8.47.0)(typescript@5.2.2)
       '@typescript-eslint/utils': 5.62.0(eslint@8.47.0)(typescript@5.2.2)
@@ -4726,7 +4723,7 @@ packages:
       '@babel/preset-react': 7.22.5(@babel/core@7.22.11)
       '@commitlint/cli': 16.3.0
       '@typescript-eslint/eslint-plugin': 5.62.0(@typescript-eslint/parser@5.62.0)(eslint@8.47.0)(typescript@5.2.2)
-      '@typescript-eslint/parser': 5.62.0(eslint@8.47.0)(typescript@5.2.2)
+      '@typescript-eslint/parser': 5.62.0(eslint@7.2.0)(typescript@5.2.2)
       cd-commitlint-config: 1.0.0
       cd-eslint-config: 1.0.0
       cd-markdownlint-config: 1.0.0(markdownlint@0.25.1)
@@ -4740,7 +4737,7 @@ packages:
       eslint-config-egg: 10.0.0(eslint-import-resolver-typescript@2.7.1)(eslint@8.47.0)(typescript@5.2.2)
       eslint-config-prettier: 8.10.0(eslint@8.47.0)
       eslint-import-resolver-typescript: 2.7.1(eslint-plugin-import@2.28.1)(eslint@8.47.0)
-      eslint-plugin-import: 2.28.1(@typescript-eslint/parser@5.62.0)(eslint-import-resolver-typescript@2.7.1)(eslint@8.47.0)
+      eslint-plugin-import: 2.28.1(@typescript-eslint/parser@5.62.0)(eslint@7.2.0)
       eslint-plugin-jsx-a11y: 6.7.1(eslint@8.47.0)
       eslint-plugin-prettier: 4.2.1(eslint-config-prettier@8.10.0)(eslint@8.47.0)(prettier@2.8.8)
       eslint-plugin-react: 7.33.2(eslint@8.47.0)
@@ -5295,15 +5292,6 @@ packages:
     engines: {node: '>=10'}
     dependencies:
       compare-func: 2.0.0
-      q: 1.5.1
-    dev: true
-
-  /conventional-changelog-conventionalcommits@4.6.3:
-    resolution: {integrity: sha512-LTTQV4fwOM4oLPad317V/QNQ1FY4Hju5qeBIM1uTHbrnCE+Eg4CdRZ3gO2pUeR+tzWdp80M2j3qFFEDWVqOV4g==}
-    engines: {node: '>=10'}
-    dependencies:
-      compare-func: 2.0.0
-      lodash: 4.17.21
       q: 1.5.1
     dev: true
 
@@ -6176,90 +6164,6 @@ packages:
     engines: {node: '>= 4'}
     dev: true
 
-  /encode-fe-commitlint-config@1.0.0:
-    resolution: {integrity: sha512-cvX1j1LwozoNCn84Jsft7QAN74YNqEj3N/f/kbekmZhYugKh4cR6bsnfGwxZ0G7ZfLrhf9Db5Pw+pzuQUnFpxQ==}
-    dependencies:
-      conventional-changelog-conventionalcommits: 4.6.3
-    dev: true
-
-  /encode-fe-eslint-config@1.0.0:
-    resolution: {integrity: sha512-3fT7M/Y1P4Y9Dadv12rFt0oV6jMFvbksZmFDkl8Vhcm/v8xh2IAykyhuKFsKXw0KiyPYolqU9NnsUhGadqL9hQ==}
-    dev: true
-
-  /encode-fe-lint@1.0.3(typescript@5.2.2):
-    resolution: {integrity: sha512-ZTma7bTcZSchjAM+G6oQ4gXQqpviZ5R9S1r2LJo3ma02dSNUr4+yQQG0yKS+nPW6HJfCiLVwsQddLoqVI7IO4A==}
-    engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
-    hasBin: true
-    dependencies:
-      '@babel/core': 7.22.11
-      '@babel/eslint-parser': 7.22.11(@babel/core@7.22.11)(eslint@8.47.0)
-      '@babel/preset-react': 7.22.5(@babel/core@7.22.11)
-      '@commitlint/cli': 16.3.0
-      '@typescript-eslint/eslint-plugin': 5.62.0(@typescript-eslint/parser@5.62.0)(eslint@8.47.0)(typescript@5.2.2)
-      '@typescript-eslint/parser': 5.62.0(eslint@7.2.0)(typescript@5.2.2)
-      chalk: 4.1.2
-      command-exists: 1.2.9
-      commander: 6.2.1
-      cross-spawn: 7.0.3
-      ejs: 3.1.9
-      encode-fe-commitlint-config: 1.0.0
-      encode-fe-eslint-config: 1.0.0
-      encode-fe-markdownlint-config: 1.0.0(markdownlint@0.25.1)
-      encode-fe-stylelint-config: 1.0.0(stylelint-scss@4.7.0)(stylelint@14.16.1)
-      eslint: 8.47.0
-      eslint-config-egg: 10.0.0(eslint-import-resolver-typescript@2.7.1)(eslint@8.47.0)(typescript@5.2.2)
-      eslint-config-prettier: 8.10.0(eslint@8.47.0)
-      eslint-import-resolver-typescript: 2.7.1(eslint-plugin-import@2.28.1)(eslint@8.47.0)
-      eslint-plugin-import: 2.28.1(@typescript-eslint/parser@5.62.0)(eslint@7.2.0)
-      eslint-plugin-jsx-a11y: 6.7.1(eslint@8.47.0)
-      eslint-plugin-prettier: 4.2.1(eslint-config-prettier@8.10.0)(eslint@8.47.0)(prettier@2.8.8)
-      eslint-plugin-react: 7.33.2(eslint@8.47.0)
-      eslint-plugin-react-hooks: 4.6.0(eslint@8.47.0)
-      eslint-plugin-vue: 7.20.0(eslint@8.47.0)
-      execa: 5.1.1
-      fast-glob: 3.3.1
-      fs-extra: 9.1.0
-      glob: 7.2.3
-      husky: 3.1.0
-      inquirer: 7.3.3
-      is-docker: 2.2.1
-      lodash: 4.17.21
-      markdownlint: 0.25.1
-      markdownlint-rule-helpers: 0.13.0
-      ora: 5.4.1
-      prettier: 2.8.8
-      strip-ansi: 6.0.1
-      stylelint: 14.16.1
-      stylelint-scss: 4.7.0(stylelint@14.16.1)
-      terminal-link: 2.1.1
-      text-table: 0.2.0
-      vue-eslint-parser: 7.11.0(eslint@8.47.0)
-    transitivePeerDependencies:
-      - '@swc/core'
-      - '@swc/wasm'
-      - eslint-import-resolver-webpack
-      - supports-color
-      - typescript
-    dev: true
-
-  /encode-fe-markdownlint-config@1.0.0(markdownlint@0.25.1):
-    resolution: {integrity: sha512-doZW1YAEnPhxJaTxeP5+Ups3GAWPNb3Z58Eq2q+lmnOYkrCGkToqvCUuUymCRLabspnm0SFYwDMrjKGAXjIpvA==}
-    peerDependencies:
-      markdownlint: ^0.28.1
-    dependencies:
-      markdownlint: 0.25.1
-    dev: true
-
-  /encode-fe-stylelint-config@1.0.0(stylelint-scss@4.7.0)(stylelint@14.16.1):
-    resolution: {integrity: sha512-2kQZnLALX2cTGASv+FV/mIW+RIEJe+sVP+ktf+EQGWCvExNROfYSS9bp6/6NfcXx062ms0tI0xIfiPcuk0HAaA==}
-    peerDependencies:
-      stylelint: '>=8.3.0'
-      stylelint-scss: '>=2.0.0'
-    dependencies:
-      stylelint: 14.16.1
-      stylelint-scss: 4.7.0(stylelint@14.16.1)
-    dev: true
-
   /encoding@0.1.13:
     resolution: {integrity: sha512-ETBauow1T35Y/WZMkio9jiM0Z5xjHHmJ4XmjZOq1l/dXz3lr2sRn87nJy20RupqSh1F2m3HHPSp8ShIPQJrJ3A==}
     dependencies:
@@ -6683,7 +6587,7 @@ packages:
     dependencies:
       debug: 4.3.4
       eslint: 8.47.0
-      eslint-plugin-import: 2.28.1(@typescript-eslint/parser@5.62.0)(eslint-import-resolver-typescript@2.7.1)(eslint@8.47.0)
+      eslint-plugin-import: 2.28.1(@typescript-eslint/parser@5.62.0)(eslint@7.2.0)
       glob: 7.2.3
       is-glob: 4.0.3
       resolve: 1.22.4
