@@ -2,7 +2,7 @@ const gulp=require("gulp");
 const babel=require("gulp-babel");
 const ts=require("gulp-typescript");
 const del=require("del");
-//如果上次有对应产物，此时就要进行删除
+//如果上次有对应产物，此时就要进行
 gulp.task('clean',async function(){
     await del('cjs/**');
     await del('lib/**');
