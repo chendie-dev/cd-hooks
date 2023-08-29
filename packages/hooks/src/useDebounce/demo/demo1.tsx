@@ -1,14 +1,18 @@
-import React, {  useState, useEffect } from 'react'
+import React, {  useState } from 'react'
 import {useDebounce} from 'cd-hooks';
 
 
 export default () => {
-    const [count, setCount] = useState(0);
-    const 
+    const [count, setCount] = useState('');
+    const debounceValue=useDebounce(count,{wait:2000})
     return (
         <div>
-            <p>count:{count}</p>
-            <button>quik click!</button>
+            <input
+                value={count}
+                onChange={(e)=>setCount(e.target.value)}
+                placeholder='输入值'
+            />
+            <p>value:{debounceValue}</p>
         </div>
     )
 }

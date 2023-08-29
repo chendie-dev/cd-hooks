@@ -63,7 +63,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "packages/hooks/src/useBoolean/index.md",
-          "updatedTime": 1693105747000,
+          "updatedTime": 1693308934000,
           "nav": {
             "path": "/hooks",
             "title": "UseBoolean"
@@ -115,20 +115,56 @@ export function getRoutes() {
         "title": "useBoolean - cd hooks"
       },
       {
-        "path": "/use-debounce",
+        "path": "/hooks/use-debounce",
         "component": require('/Users/chendie/Documents/project/cd-hooks/packages/hooks/src/useDebounce/index.md').default,
         "exact": true,
         "meta": {
           "filePath": "packages/hooks/src/useDebounce/index.md",
-          "updatedTime": 1693221948185,
-          "slugs": [],
+          "updatedTime": 1693308934000,
           "nav": {
-            "path": "/use-debounce",
+            "path": "/hooks",
             "title": "UseDebounce"
           },
-          "title": "UseDebounce"
+          "slugs": [
+            {
+              "depth": 1,
+              "value": "useDebounce",
+              "heading": "usedebounce"
+            },
+            {
+              "depth": 2,
+              "value": "代码演示",
+              "heading": "代码演示"
+            },
+            {
+              "depth": 3,
+              "value": "基础用法",
+              "heading": "基础用法"
+            },
+            {
+              "depth": 2,
+              "value": "API",
+              "heading": "api"
+            },
+            {
+              "depth": 3,
+              "value": "Params",
+              "heading": "params"
+            },
+            {
+              "depth": 3,
+              "value": "Options",
+              "heading": "options"
+            }
+          ],
+          "title": "useDebounce",
+          "hasPreviewer": true,
+          "group": {
+            "path": "/hooks/use-debounce",
+            "title": "UseDebounce"
+          }
         },
-        "title": "UseDebounce - cd hooks"
+        "title": "useDebounce - cd hooks"
       },
       {
         "path": "/hooks/use-debounce-fn",
@@ -136,7 +172,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "packages/hooks/src/useDebounceFn/index.md",
-          "updatedTime": 1693289624426,
+          "updatedTime": 1693308934000,
           "nav": {
             "path": "/hooks",
             "title": "UseDebounceFn"
@@ -193,7 +229,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "packages/hooks/src/useLatest/index.md",
-          "updatedTime": 1693291765287,
+          "updatedTime": 1693308934000,
           "nav": {
             "path": "/hooks",
             "title": "UseLatest"
@@ -235,7 +271,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "packages/hooks/src/useTitle/index.md",
-          "updatedTime": 1693221853509,
+          "updatedTime": 1693308934000,
           "nav": {
             "path": "/hooks",
             "title": "UseTitle"
@@ -287,7 +323,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "packages/hooks/src/useToggle/index.md",
-          "updatedTime": 1693105747000,
+          "updatedTime": 1693308934000,
           "nav": {
             "path": "/hooks",
             "title": "UseToggle"
@@ -349,7 +385,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "packages/hooks/src/useUnmount/index.md",
-          "updatedTime": 1693210149436,
+          "updatedTime": 1693308934000,
           "nav": {
             "path": "/hooks",
             "title": "UseUnmount"
@@ -439,7 +475,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "docs/guide/index.md",
-          "updatedTime": 1693105747000,
+          "updatedTime": 1693308934000,
           "slugs": [
             {
               "depth": 1,

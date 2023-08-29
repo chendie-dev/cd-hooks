@@ -52,6 +52,10 @@
             {
               "path": "/hooks/use-debounce-fn",
               "title": "useDebounceFn"
+            },
+            {
+              "path": "/hooks/use-debounce",
+              "title": "useDebounce"
             }
           ]
         },
@@ -63,13 +67,6 @@
               "title": "useLatest"
             }
           ]
-        }
-      ],
-      "/use-debounce": [
-        {
-          "path": "/use-debounce",
-          "title": "UseDebounce",
-          "meta": {}
         }
       ],
       "*": [

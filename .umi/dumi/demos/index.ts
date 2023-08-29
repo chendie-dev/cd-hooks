@@ -8,6 +8,7 @@ import rawCode4 from '!!dumi-raw-code-loader!/Users/chendie/Documents/project/cd
 import rawCode5 from '!!dumi-raw-code-loader!/Users/chendie/Documents/project/cd-hooks/packages/hooks/src/useToggle/demo/demo1.tsx?dumi-raw-code';
 import rawCode6 from '!!dumi-raw-code-loader!/Users/chendie/Documents/project/cd-hooks/packages/hooks/src/useToggle/demo/demo2.tsx?dumi-raw-code';
 import rawCode7 from '!!dumi-raw-code-loader!/Users/chendie/Documents/project/cd-hooks/packages/hooks/src/useUnmount/demo/demo1.tsx?dumi-raw-code';
+import rawCode8 from '!!dumi-raw-code-loader!/Users/chendie/Documents/project/cd-hooks/packages/hooks/src/useDebounce/demo/demo1.tsx?dumi-raw-code';
 
 export default {
   'useboolean-demo1': {
@@ -37,5 +38,9 @@ export default {
   'useunmount-demo1': {
     component: (require('/Users/chendie/Documents/project/cd-hooks/packages/hooks/src/useUnmount/demo/demo1.tsx')).default,
     previewerProps: {"sources":{"_":{"tsx":rawCode7}},"dependencies":{"react":{"version":"^16.8.0 || ^17.0.0 || ^18.0.0"},"antd":{"version":"5.2.1"},"cd-hooks":{"version":"0.0.1"},"react-dom":{"version":">=16.9.0"}},"hideActions":["CSB"],"identifier":"useunmount-demo1"},
+  },
+  'usedebounce-demo1': {
+    component: (require('/Users/chendie/Documents/project/cd-hooks/packages/hooks/src/useDebounce/demo/demo1.tsx')).default,
+    previewerProps: {"sources":{"_":{"tsx":rawCode8}},"dependencies":{"react":{"version":"^16.8.0 || ^17.0.0 || ^18.0.0"},"cd-hooks":{"version":"0.0.1"}},"hideActions":["CSB"],"identifier":"usedebounce-demo1"},
   },
 };

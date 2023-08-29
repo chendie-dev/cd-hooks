@@ -70,7 +70,7 @@ export default {
       },
       {
         title: 'DOM',
-        children: ['useDebounceFn'],
+        children: ['useDebounceFn','useDebounce'],
       },
       {
         title: '进阶',

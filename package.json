@@ -9,6 +9,7 @@
     "init": "pnpm install",
     "start": "pnpm run dev",
     "dev": "dumi dev",
+    "build:doc": "dumi build",
     "test": "jest",
     "pub": "pnpm run build && pnpm -r --filter=./packages/* publish",
     "pub:beta": "pnpm run build && pnpm -r --filter=./packages/* publish --tag beta",
