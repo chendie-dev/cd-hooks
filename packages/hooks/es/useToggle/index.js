@@ -7,7 +7,7 @@ function useToggle(defaultValue, reverseValue) {
   var _a = __read(useState(defaultValue), 2),
     state = _a[0],
     setState = _a[1];
-  //actions的持久化
+  //actions的持久化，不加依赖项只会更新一次
   var actions = useMemo(function () {
     var reverseValueOrigin = reverseValue === undefined ? !defaultValue : reverseValue;
     var toggle = function () {
@@ -16,13 +16,17 @@ function useToggle(defaultValue, reverseValue) {
       });
     };
     var setRight = function () {
-      return setState(defaultValue);
+      return setState(reverseValueOrigin);
     };
     var setLeft = function () {
-      return setState(reverseValueOrigin);
+      return setState(defaultValue);
+    };
+    var set = function (value) {
+      return setState(value);
     };
     return {
       toggle: toggle,
+      set: set,
       setLeft: setLeft,
       setRight: setRight
     };

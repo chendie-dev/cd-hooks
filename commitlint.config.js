@@ -1,3 +1,3 @@
-module.exports = {
-  extends: ['cd-commitlint-config'],
-};
+module.exports={
+    extends: ['cd-commitlint-config'],
+}

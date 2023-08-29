@@ -7,7 +7,7 @@ const commonConfig = require("../../gulpfile");
 function generateDesc(mdPath){
     if(!fs.existsSync(mdPath))return null;
     const mdFile=fs.readFileSync(mdPath,'utf8');
-    const {content}=gm(mdFile)//获取内
+    const {content}=gm(mdFile)//获取内容
     let desc=(content.replace(/\r\n/g, '\n').match(/# \w+[\s\n]+(.+?)(?:, |\. |\n|\.\n)/m) || [])[1] || '';
     desc=desc.trim();
     return desc

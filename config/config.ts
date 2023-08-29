@@ -18,6 +18,7 @@ export default {
   mode: 'site',
   title: 'cd hooks',
   logo: '/logo.png',
+  favicon: '/logo.png',
   hash: true,
   alias: {
     cdHooks: process.cwd() + '/packages/hooks/src/index.ts',
@@ -35,6 +36,7 @@ export default {
   navs: [
     { title: '指南', path: '/guide' },
     { title: 'Hooks', path: '/hooks' },
+    { title: 'GitHub', path: 'https://github.com/chendie-dev/cd-hooks' },
   ],
   menus: {
     '/': [
@@ -51,8 +53,28 @@ export default {
     ],
     '/hooks': [
       {
+        title: '生命周期',
+        children: ['useUnmount'],
+      },
+      {
+        title: '请求',
+        children: [''],
+      },
+      {
         title: '状态',
-        children: ['useToggle','useBoolean'],
+        children: ['useToggle','useBoolean','useTitle'],
+      },
+      {
+        title: 'Effect',
+        children: [''],
+      },
+      {
+        title: 'DOM',
+        children: ['useDebounceFn'],
+      },
+      {
+        title: '进阶',
+        children: ['useLatest'],
       },
     ]
   }

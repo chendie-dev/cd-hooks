@@ -12,23 +12,25 @@ function useBoolean(defaultValue) {
   if (defaultValue === void 0) {
     defaultValue = false;
   }
-  var _a = (0, _tslib.__read)((0, _useToggle.default)(!!defaultValue, !!!defaultValue), 2),
+  var _a = (0, _tslib.__read)((0, _useToggle.default)(!!defaultValue), 2),
     state = _a[0],
     _b = _a[1],
     toggle = _b.toggle,
-    setLeft = _b.setLeft,
-    setRight = _b.setRight;
+    _set = _b.set;
   var actions = (0, _react.useMemo)(function () {
     var setTrue = function setTrue() {
-      return setLeft();
+      return _set(true);
     };
     var setFalse = function setFalse() {
-      return setRight();
+      return _set(false);
     };
     return {
       toggle: toggle,
       setTrue: setTrue,
-      setFalse: setFalse
+      setFalse: setFalse,
+      set: function set(v) {
+        return _set(!!v);
+      }
     };
   }, []);
   return [state, actions];

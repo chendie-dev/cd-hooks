@@ -3,7 +3,7 @@
  * desc: 切换 boolean，可以接收默认值。
  */
 import React from 'react'
-import {useBoolean} from 'cdHooks'
+import {useBoolean} from 'cd-hooks'
 
 export default ()=>{
     const [bool,{toggle,setTrue,setFalse}]=useBoolean();

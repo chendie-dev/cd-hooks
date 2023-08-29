@@ -1,8 +1,8 @@
 import React from 'react'
-import { useToggle } from 'cdHooks'
+import { useToggle } from 'cd-hooks'
 
-export default function demo1(){
-    const [state, { toggle, setLeft, setRight }] = useToggle();
+export default ()=>{
+    const [state, { toggle, setLeft, setRight }] = useToggle('hello');
     return (
         <div>
             <p>当前值为{`${state}`}</p>

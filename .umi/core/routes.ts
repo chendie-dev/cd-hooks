@@ -12,7 +12,7 @@ export function getRoutes() {
     "wrappers": [require('../dumi/layout').default],
     "component": ((props) => {
         const React = require('react');
-        const { default: getDemoRenderArgs } = require('/Users/chendie/Documents/project/cd-hooks/node_modules/.pnpm/@umijs+preset-dumi@1.1.48_react-dom@18.2.0_react-router@6.4.2_react@18.2.0_typescript@5.2.2_umi@3.5.41/node_modules/@umijs/preset-dumi/lib/plugins/features/demo/getDemoRenderArgs');
+        const { default: getDemoRenderArgs } = require('/Users/chendie/Documents/project/cd-hooks/node_modules/.pnpm/@umijs+preset-dumi@1.1.48_react-dom@18.2.0_react-router@6.4.2_react@18.2.0_typescript@5.1.3_umi@3.5.41/node_modules/@umijs/preset-dumi/lib/plugins/features/demo/getDemoRenderArgs');
         const { default: Previewer } = require('dumi-theme-default/es/builtins/Previewer.js');
         const { usePrefersColor, context } = require('dumi/theme');
 
@@ -63,7 +63,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "packages/hooks/src/useBoolean/index.md",
-          "updatedTime": 1693103643821,
+          "updatedTime": 1693105747000,
           "nav": {
             "path": "/hooks",
             "title": "UseBoolean"
@@ -115,12 +115,179 @@ export function getRoutes() {
         "title": "useBoolean - cd hooks"
       },
       {
+        "path": "/use-debounce",
+        "component": require('/Users/chendie/Documents/project/cd-hooks/packages/hooks/src/useDebounce/index.md').default,
+        "exact": true,
+        "meta": {
+          "filePath": "packages/hooks/src/useDebounce/index.md",
+          "updatedTime": 1693221948185,
+          "slugs": [],
+          "nav": {
+            "path": "/use-debounce",
+            "title": "UseDebounce"
+          },
+          "title": "UseDebounce"
+        },
+        "title": "UseDebounce - cd hooks"
+      },
+      {
+        "path": "/hooks/use-debounce-fn",
+        "component": require('/Users/chendie/Documents/project/cd-hooks/packages/hooks/src/useDebounceFn/index.md').default,
+        "exact": true,
+        "meta": {
+          "filePath": "packages/hooks/src/useDebounceFn/index.md",
+          "updatedTime": 1693289624426,
+          "nav": {
+            "path": "/hooks",
+            "title": "UseDebounceFn"
+          },
+          "slugs": [
+            {
+              "depth": 1,
+              "value": "useDebounceFn",
+              "heading": "usedebouncefn"
+            },
+            {
+              "depth": 2,
+              "value": "代码演示",
+              "heading": "代码演示"
+            },
+            {
+              "depth": 3,
+              "value": "基础用法",
+              "heading": "基础用法"
+            },
+            {
+              "depth": 2,
+              "value": "API",
+              "heading": "api"
+            },
+            {
+              "depth": 3,
+              "value": "Params",
+              "heading": "params"
+            },
+            {
+              "depth": 3,
+              "value": "Options",
+              "heading": "options"
+            },
+            {
+              "depth": 3,
+              "value": "Result",
+              "heading": "result"
+            }
+          ],
+          "title": "useDebounceFn",
+          "hasPreviewer": true,
+          "group": {
+            "path": "/hooks/use-debounce-fn",
+            "title": "UseDebounceFn"
+          }
+        },
+        "title": "useDebounceFn - cd hooks"
+      },
+      {
+        "path": "/hooks/use-latest",
+        "component": require('/Users/chendie/Documents/project/cd-hooks/packages/hooks/src/useLatest/index.md').default,
+        "exact": true,
+        "meta": {
+          "filePath": "packages/hooks/src/useLatest/index.md",
+          "updatedTime": 1693291765287,
+          "nav": {
+            "path": "/hooks",
+            "title": "UseLatest"
+          },
+          "slugs": [
+            {
+              "depth": 1,
+              "value": "useLatest",
+              "heading": "uselatest"
+            },
+            {
+              "depth": 2,
+              "value": "代码演示",
+              "heading": "代码演示"
+            },
+            {
+              "depth": 3,
+              "value": "基础用法",
+              "heading": "基础用法"
+            },
+            {
+              "depth": 2,
+              "value": "API",
+              "heading": "api"
+            }
+          ],
+          "title": "useLatest",
+          "hasPreviewer": true,
+          "group": {
+            "path": "/hooks/use-latest",
+            "title": "UseLatest"
+          }
+        },
+        "title": "useLatest - cd hooks"
+      },
+      {
+        "path": "/hooks/use-title",
+        "component": require('/Users/chendie/Documents/project/cd-hooks/packages/hooks/src/useTitle/index.md').default,
+        "exact": true,
+        "meta": {
+          "filePath": "packages/hooks/src/useTitle/index.md",
+          "updatedTime": 1693221853509,
+          "nav": {
+            "path": "/hooks",
+            "title": "UseTitle"
+          },
+          "slugs": [
+            {
+              "depth": 1,
+              "value": "useTitle",
+              "heading": "usetitle"
+            },
+            {
+              "depth": 2,
+              "value": "代码演示",
+              "heading": "代码演示"
+            },
+            {
+              "depth": 3,
+              "value": "基础用法",
+              "heading": "基础用法"
+            },
+            {
+              "depth": 2,
+              "value": "API",
+              "heading": "api"
+            },
+            {
+              "depth": 3,
+              "value": "Params",
+              "heading": "params"
+            },
+            {
+              "depth": 3,
+              "value": "Options",
+              "heading": "options"
+            }
+          ],
+          "title": "useTitle",
+          "hasPreviewer": true,
+          "group": {
+            "path": "/hooks/use-title",
+            "title": "UseTitle"
+          }
+        },
+        "title": "useTitle - cd hooks"
+      },
+      {
         "path": "/hooks/use-toggle",
         "component": require('/Users/chendie/Documents/project/cd-hooks/packages/hooks/src/useToggle/index.md').default,
         "exact": true,
         "meta": {
           "filePath": "packages/hooks/src/useToggle/index.md",
-          "updatedTime": 1693016599561,
+          "updatedTime": 1693105747000,
           "nav": {
             "path": "/hooks",
             "title": "UseToggle"
@@ -148,23 +315,23 @@ export function getRoutes() {
             },
             {
               "depth": 2,
-              "value": "code",
-              "heading": "code"
+              "value": "API",
+              "heading": "api"
             },
             {
               "depth": 3,
-              "value": "code",
-              "heading": "code-1"
+              "value": "Params",
+              "heading": "params"
             },
             {
               "depth": 3,
-              "value": "code",
-              "heading": "code-2"
+              "value": "Result",
+              "heading": "result"
             },
             {
               "depth": 3,
-              "value": "code",
-              "heading": "code-3"
+              "value": "Actions",
+              "heading": "actions"
             }
           ],
           "title": "useToggle",
@@ -177,12 +344,59 @@ export function getRoutes() {
         "title": "useToggle - cd hooks"
       },
       {
+        "path": "/hooks/use-unmount",
+        "component": require('/Users/chendie/Documents/project/cd-hooks/packages/hooks/src/useUnmount/index.md').default,
+        "exact": true,
+        "meta": {
+          "filePath": "packages/hooks/src/useUnmount/index.md",
+          "updatedTime": 1693210149436,
+          "nav": {
+            "path": "/hooks",
+            "title": "UseUnmount"
+          },
+          "slugs": [
+            {
+              "depth": 1,
+              "value": "useUnmount",
+              "heading": "useunmount"
+            },
+            {
+              "depth": 2,
+              "value": "代码演示",
+              "heading": "代码演示"
+            },
+            {
+              "depth": 3,
+              "value": "基础用法",
+              "heading": "基础用法"
+            },
+            {
+              "depth": 2,
+              "value": "API",
+              "heading": "api"
+            },
+            {
+              "depth": 3,
+              "value": "参数",
+              "heading": "参数"
+            }
+          ],
+          "title": "useUnmount",
+          "hasPreviewer": true,
+          "group": {
+            "path": "/hooks/use-unmount",
+            "title": "UseUnmount"
+          }
+        },
+        "title": "useUnmount - cd hooks"
+      },
+      {
         "path": "/",
         "component": require('/Users/chendie/Documents/project/cd-hooks/docs/index.md').default,
         "exact": true,
         "meta": {
           "filePath": "docs/index.md",
-          "updatedTime": 1692951089639,
+          "updatedTime": 1693105747000,
           "title": "首页",
           "hero": {
             "image": "/logo.png",
@@ -225,12 +439,12 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "docs/guide/index.md",
-          "updatedTime": 1692950836387,
+          "updatedTime": 1693105747000,
           "slugs": [
             {
               "depth": 1,
-              "value": "encode-hooks",
-              "heading": "encode-hooks"
+              "value": "cd-hooks",
+              "heading": "cd-hooks"
             },
             {
               "depth": 2,
@@ -289,8 +503,8 @@ export function getRoutes() {
             },
             {
               "depth": 3,
-              "value": "生成CHANGELOG",
-              "heading": "生成changelog"
+              "value": "生成 CHANGELOG",
+              "heading": "生成-changelog"
             },
             {
               "depth": 2,
@@ -298,19 +512,19 @@ export function getRoutes() {
               "heading": "-联系"
             }
           ],
-          "title": "encode-hooks",
+          "title": "cd-hooks",
           "nav": {
             "path": "/guide",
             "title": "Guide"
           }
         },
-        "title": "encode-hooks - cd hooks"
+        "title": "cd-hooks - cd hooks"
       },
       {
         "path": "/hooks",
         "meta": {},
         "exact": true,
-        "redirect": "/hooks/use-toggle"
+        "redirect": "/hooks/use-unmount"
       }
     ],
     "title": "cd hooks",

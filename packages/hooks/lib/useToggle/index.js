@@ -13,7 +13,7 @@ function useToggle(defaultValue, reverseValue) {
   var _a = (0, _tslib.__read)((0, _react.useState)(defaultValue), 2),
     state = _a[0],
     setState = _a[1];
-  //actions的持久化
+  //actions的持久化，不加依赖项只会更新一次
   var actions = (0, _react.useMemo)(function () {
     var reverseValueOrigin = reverseValue === undefined ? !defaultValue : reverseValue;
     var toggle = function toggle() {
@@ -22,13 +22,17 @@ function useToggle(defaultValue, reverseValue) {
       });
     };
     var setRight = function setRight() {
-      return setState(defaultValue);
+      return setState(reverseValueOrigin);
     };
     var setLeft = function setLeft() {
-      return setState(reverseValueOrigin);
+      return setState(defaultValue);
+    };
+    var set = function set(value) {
+      return setState(value);
     };
     return {
       toggle: toggle,
+      set: set,
       setLeft: setLeft,
       setRight: setRight
     };

@@ -10,11 +10,46 @@ Object.defineProperty(exports, "useBoolean", {
     return _useBoolean.default;
   }
 });
+Object.defineProperty(exports, "useDebounce", {
+  enumerable: true,
+  get: function get() {
+    return _useDebounce.default;
+  }
+});
+Object.defineProperty(exports, "useDebounceFn", {
+  enumerable: true,
+  get: function get() {
+    return _useDebounceFn.default;
+  }
+});
+Object.defineProperty(exports, "useLatest", {
+  enumerable: true,
+  get: function get() {
+    return _useLatest.default;
+  }
+});
+Object.defineProperty(exports, "useTitle", {
+  enumerable: true,
+  get: function get() {
+    return _useTitle.default;
+  }
+});
 Object.defineProperty(exports, "useToggle", {
   enumerable: true,
   get: function get() {
     return _useToggle.default;
   }
 });
+Object.defineProperty(exports, "useUnmount", {
+  enumerable: true,
+  get: function get() {
+    return _useUnmount.default;
+  }
+});
 var _useToggle = _interopRequireDefault(require("./useToggle"));
 var _useBoolean = _interopRequireDefault(require("./useBoolean"));
+var _useTitle = _interopRequireDefault(require("./useTitle"));
+var _useLatest = _interopRequireDefault(require("./useLatest"));
+var _useUnmount = _interopRequireDefault(require("./useUnmount"));
+var _useDebounce = _interopRequireDefault(require("./useDebounce"));
+var _useDebounceFn = _interopRequireDefault(require("./useDebounceFn"));

@@ -3,6 +3,24 @@
     "en-US": {
       "/hooks": [
         {
+          "title": "生命周期",
+          "children": [
+            {
+              "path": "/hooks/use-unmount",
+              "title": "useUnmount"
+            }
+          ]
+        },
+        {
+          "title": "请求",
+          "children": [
+            {
+              "path": "/hooks/use-boolean",
+              "title": "useBoolean"
+            }
+          ]
+        },
+        {
           "title": "状态",
           "children": [
             {
@@ -12,8 +30,46 @@
             {
               "path": "/hooks/use-boolean",
               "title": "useBoolean"
+            },
+            {
+              "path": "/hooks/use-title",
+              "title": "useTitle"
             }
           ]
+        },
+        {
+          "title": "Effect",
+          "children": [
+            {
+              "path": "/hooks/use-boolean",
+              "title": "useBoolean"
+            }
+          ]
+        },
+        {
+          "title": "DOM",
+          "children": [
+            {
+              "path": "/hooks/use-debounce-fn",
+              "title": "useDebounceFn"
+            }
+          ]
+        },
+        {
+          "title": "进阶",
+          "children": [
+            {
+              "path": "/hooks/use-latest",
+              "title": "useLatest"
+            }
+          ]
+        }
+      ],
+      "/use-debounce": [
+        {
+          "path": "/use-debounce",
+          "title": "UseDebounce",
+          "meta": {}
         }
       ],
       "*": [
@@ -52,6 +108,10 @@
       {
         "title": "Hooks",
         "path": "/hooks"
+      },
+      {
+        "title": "GitHub",
+        "path": "https://github.com/chendie-dev/cd-hooks"
       }
     ]
   },

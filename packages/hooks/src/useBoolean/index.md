@@ -16,16 +16,14 @@ nav:
 ## API
 
 ```typescript
-const [state, { toggle, set, setTrue, setFalse }] = useBoolean(
-  defaultValue?: boolean,
-);
+const [state, { toggle, setTrue, setFalse }] = useBoolean(defaultValue?: any);
 ```
 
 ### Params
 
 | 参数         | 说明                     | 类型      | 默认值  |
 | ------------ | ------------------------ | --------- | ------- |
-| defaultValue | 可选项，传入默认的状态值 | `boolean` | `false` |
+| defaultValue | 可选项，传入默认的状态值 | `any` | `false` |
 
 ### Result
 
@@ -39,6 +37,5 @@ const [state, { toggle, set, setTrue, setFalse }] = useBoolean(
 | 参数     | 说明         | 类型                       |
 | -------- | ------------ | -------------------------- |
 | toggle   | 切换 state   | `() => void`               |
-| set      | 设置 state   | `(value: boolean) => void` |
 | setTrue  | 设置为 true  | `() => void`               |
 | setFalse | 设置为 false | `() => void`               |
