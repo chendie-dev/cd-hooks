@@ -8,15 +8,10 @@
             {
               "path": "/hooks/use-unmount",
               "title": "useUnmount"
-            }
-          ]
-        },
-        {
-          "title": "请求",
-          "children": [
+            },
             {
-              "path": "/hooks/use-boolean",
-              "title": "useBoolean"
+              "path": "/hooks/use-unmounted-ref",
+              "title": "useUnmountedRef"
             }
           ]
         },
@@ -32,8 +27,12 @@
               "title": "useBoolean"
             },
             {
-              "path": "/hooks/use-title",
-              "title": "useTitle"
+              "path": "/hooks/use-debounce",
+              "title": "useDebounce"
+            },
+            {
+              "path": "/hooks/use-throttle",
+              "title": "useThrottle"
             }
           ]
         },
@@ -41,8 +40,20 @@
           "title": "Effect",
           "children": [
             {
-              "path": "/hooks/use-boolean",
-              "title": "useBoolean"
+              "path": "/hooks/use-debounce-fn",
+              "title": "useDebounceFn"
+            },
+            {
+              "path": "/hooks/use-throttle-fn",
+              "title": "useThrottleFn"
+            },
+            {
+              "path": "/hooks/use-update",
+              "title": "useUpdate"
+            },
+            {
+              "path": "/hooks/use-update-effect",
+              "title": "useUpdateEffect"
             }
           ]
         },
@@ -50,12 +61,8 @@
           "title": "DOM",
           "children": [
             {
-              "path": "/hooks/use-debounce-fn",
-              "title": "useDebounceFn"
-            },
-            {
-              "path": "/hooks/use-debounce",
-              "title": "useDebounce"
+              "path": "/hooks/use-title",
+              "title": "useTitle"
             }
           ]
         },
@@ -65,6 +72,10 @@
             {
               "path": "/hooks/use-latest",
               "title": "useLatest"
+            },
+            {
+              "path": "/hooks/use-memoried",
+              "title": "useMemoizedFn"
             }
           ]
         }

@@ -54,27 +54,27 @@ export default {
     '/hooks': [
       {
         title: '生命周期',
-        children: ['useUnmount'],
+        children: ['useUnmount','useUnmountedRef'],
       },
-      {
-        title: '请求',
-        children: [''],
-      },
+      // {
+      //   title: '请求',
+      //   children: [''],
+      // },
       {
         title: '状态',
-        children: ['useToggle','useBoolean','useTitle'],
+        children: ['useToggle','useBoolean','useDebounce','useThrottle'],
       },
       {
         title: 'Effect',
-        children: [''],
+        children: ['useDebounceFn','useThrottleFn','useUpdate','useUpdateEffect'],
       },
       {
         title: 'DOM',
-        children: ['useDebounceFn','useDebounce'],
+        children: ['useTitle',],
       },
       {
         title: '进阶',
-        children: ['useLatest'],
+        children: ['useLatest','useMemoried'],
       },
     ]
   }

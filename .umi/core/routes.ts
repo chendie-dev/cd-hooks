@@ -120,7 +120,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "packages/hooks/src/useDebounce/index.md",
-          "updatedTime": 1693308934000,
+          "updatedTime": 1693312877000,
           "nav": {
             "path": "/hooks",
             "title": "UseDebounce"
@@ -264,6 +264,172 @@ export function getRoutes() {
           }
         },
         "title": "useLatest - cd hooks"
+      },
+      {
+        "path": "/hooks/use-memoried",
+        "component": require('/Users/chendie/Documents/project/cd-hooks/packages/hooks/src/useMemoried/index.md').default,
+        "exact": true,
+        "meta": {
+          "filePath": "packages/hooks/src/useMemoried/index.md",
+          "updatedTime": 1693469334486,
+          "nav": {
+            "path": "/hooks",
+            "title": "UseMemoried"
+          },
+          "slugs": [
+            {
+              "depth": 1,
+              "value": "useMemoizedFn",
+              "heading": "usememoizedfn"
+            },
+            {
+              "depth": 2,
+              "value": "代码演示",
+              "heading": "代码演示"
+            },
+            {
+              "depth": 3,
+              "value": "基础用法",
+              "heading": "基础用法"
+            },
+            {
+              "depth": 3,
+              "value": "性能提升",
+              "heading": "性能提升"
+            },
+            {
+              "depth": 2,
+              "value": "API",
+              "heading": "api"
+            },
+            {
+              "depth": 3,
+              "value": "Result",
+              "heading": "result"
+            },
+            {
+              "depth": 3,
+              "value": "Params",
+              "heading": "params"
+            }
+          ],
+          "title": "useMemoizedFn",
+          "hasPreviewer": true,
+          "group": {
+            "path": "/hooks/use-memoried",
+            "title": "UseMemoried"
+          }
+        },
+        "title": "useMemoizedFn - cd hooks"
+      },
+      {
+        "path": "/hooks/use-throttle",
+        "component": require('/Users/chendie/Documents/project/cd-hooks/packages/hooks/src/useThrottle/index.md').default,
+        "exact": true,
+        "meta": {
+          "filePath": "packages/hooks/src/useThrottle/index.md",
+          "updatedTime": 1693438883505,
+          "nav": {
+            "path": "/hooks",
+            "title": "UseThrottle"
+          },
+          "slugs": [
+            {
+              "depth": 1,
+              "value": "useThrottle",
+              "heading": "usethrottle"
+            },
+            {
+              "depth": 2,
+              "value": "代码演示",
+              "heading": "代码演示"
+            },
+            {
+              "depth": 3,
+              "value": "基础用法",
+              "heading": "基础用法"
+            },
+            {
+              "depth": 2,
+              "value": "API",
+              "heading": "api"
+            },
+            {
+              "depth": 3,
+              "value": "Params",
+              "heading": "params"
+            },
+            {
+              "depth": 3,
+              "value": "Options",
+              "heading": "options"
+            }
+          ],
+          "title": "useThrottle",
+          "hasPreviewer": true,
+          "group": {
+            "path": "/hooks/use-throttle",
+            "title": "UseThrottle"
+          }
+        },
+        "title": "useThrottle - cd hooks"
+      },
+      {
+        "path": "/hooks/use-throttle-fn",
+        "component": require('/Users/chendie/Documents/project/cd-hooks/packages/hooks/src/useThrottleFn/index.md').default,
+        "exact": true,
+        "meta": {
+          "filePath": "packages/hooks/src/useThrottleFn/index.md",
+          "updatedTime": 1693366102690,
+          "nav": {
+            "path": "/hooks",
+            "title": "UseThrottleFn"
+          },
+          "slugs": [
+            {
+              "depth": 1,
+              "value": "useThrottleFn",
+              "heading": "usethrottlefn"
+            },
+            {
+              "depth": 2,
+              "value": "代码演示",
+              "heading": "代码演示"
+            },
+            {
+              "depth": 3,
+              "value": "基础用法",
+              "heading": "基础用法"
+            },
+            {
+              "depth": 2,
+              "value": "API",
+              "heading": "api"
+            },
+            {
+              "depth": 3,
+              "value": "Params",
+              "heading": "params"
+            },
+            {
+              "depth": 3,
+              "value": "Options",
+              "heading": "options"
+            },
+            {
+              "depth": 3,
+              "value": "Result",
+              "heading": "result"
+            }
+          ],
+          "title": "useThrottleFn",
+          "hasPreviewer": true,
+          "group": {
+            "path": "/hooks/use-throttle-fn",
+            "title": "UseThrottleFn"
+          }
+        },
+        "title": "useThrottleFn - cd hooks"
       },
       {
         "path": "/hooks/use-title",
@@ -425,6 +591,137 @@ export function getRoutes() {
           }
         },
         "title": "useUnmount - cd hooks"
+      },
+      {
+        "path": "/hooks/use-unmounted-ref",
+        "component": require('/Users/chendie/Documents/project/cd-hooks/packages/hooks/src/useUnmountedRef/index.md').default,
+        "exact": true,
+        "meta": {
+          "filePath": "packages/hooks/src/useUnmountedRef/index.md",
+          "updatedTime": 1693361552731,
+          "nav": {
+            "path": "/hooks",
+            "title": "UseUnmountedRef"
+          },
+          "slugs": [
+            {
+              "depth": 1,
+              "value": "useUnmountedRef",
+              "heading": "useunmountedref"
+            },
+            {
+              "depth": 2,
+              "value": "代码演示",
+              "heading": "代码演示"
+            },
+            {
+              "depth": 3,
+              "value": "基础用法",
+              "heading": "基础用法"
+            },
+            {
+              "depth": 2,
+              "value": "API",
+              "heading": "api"
+            },
+            {
+              "depth": 3,
+              "value": "Result",
+              "heading": "result"
+            }
+          ],
+          "title": "useUnmountedRef",
+          "hasPreviewer": true,
+          "group": {
+            "path": "/hooks/use-unmounted-ref",
+            "title": "UseUnmountedRef"
+          }
+        },
+        "title": "useUnmountedRef - cd hooks"
+      },
+      {
+        "path": "/hooks/use-update",
+        "component": require('/Users/chendie/Documents/project/cd-hooks/packages/hooks/src/useUpdate/index.md').default,
+        "exact": true,
+        "meta": {
+          "filePath": "packages/hooks/src/useUpdate/index.md",
+          "updatedTime": 1693450303660,
+          "nav": {
+            "path": "/hooks",
+            "title": "UseUpdate"
+          },
+          "slugs": [
+            {
+              "depth": 1,
+              "value": "useUpdate",
+              "heading": "useupdate"
+            },
+            {
+              "depth": 2,
+              "value": "代码演示",
+              "heading": "代码演示"
+            },
+            {
+              "depth": 3,
+              "value": "基础用法",
+              "heading": "基础用法"
+            },
+            {
+              "depth": 2,
+              "value": "API",
+              "heading": "api"
+            }
+          ],
+          "title": "useUpdate",
+          "hasPreviewer": true,
+          "group": {
+            "path": "/hooks/use-update",
+            "title": "UseUpdate"
+          }
+        },
+        "title": "useUpdate - cd hooks"
+      },
+      {
+        "path": "/hooks/use-update-effect",
+        "component": require('/Users/chendie/Documents/project/cd-hooks/packages/hooks/src/useUpdateEffect/index.md').default,
+        "exact": true,
+        "meta": {
+          "filePath": "packages/hooks/src/useUpdateEffect/index.md",
+          "updatedTime": 1693458250795,
+          "nav": {
+            "path": "/hooks",
+            "title": "UseUpdateEffect"
+          },
+          "slugs": [
+            {
+              "depth": 1,
+              "value": "useUpdateEffect",
+              "heading": "useupdateeffect"
+            },
+            {
+              "depth": 2,
+              "value": "代码演示",
+              "heading": "代码演示"
+            },
+            {
+              "depth": 3,
+              "value": "基础用法",
+              "heading": "基础用法"
+            },
+            {
+              "depth": 2,
+              "value": "API",
+              "heading": "api"
+            }
+          ],
+          "title": "useUpdateEffect",
+          "hasPreviewer": true,
+          "group": {
+            "path": "/hooks/use-update-effect",
+            "title": "UseUpdateEffect"
+          }
+        },
+        "title": "useUpdateEffect - cd hooks"
       },
       {
         "path": "/",
