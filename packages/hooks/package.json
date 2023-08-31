@@ -1,5 +1,5 @@
 {
-  "name": "cd-hooks",
+  "name": "cdy-hooks",
   "version": "0.0.1",
   "description": "React Hooks",
   "keywords": [
@@ -9,7 +9,7 @@
   "main": "./lib/index.js",
   "module": "./es/index.js",
   "types": "./lib/index.d.ts",
-  "unpkg": "./dist/cd-hooks.js",
+  "unpkg": "./dist/cdy-hooks.js",
   "sideEffects": false,
   "files": [
     "lib",

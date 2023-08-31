@@ -21,7 +21,7 @@ export default {
   favicon: '/logo.png',
   hash: true,
   alias: {
-    cdHooks: process.cwd() + '/packages/hooks/src/index.ts',
+    cdyHooks: process.cwd() + '/packages/hooks/src/index.ts',
   },
   resolve: {
     includes: [ 'packages/hooks/src','docs'],

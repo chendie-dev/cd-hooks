@@ -5,8 +5,8 @@ const path=require("path")
 module.exports=merge(common,{
     entry:'./es/index.js',
     output:{
-        filename:'cd-hooks.js',
-        library:'cd-hooks',
+        filename:'cdy-hooks.js',
+        library:'cdy-hooks',
         path:path.resolve(__dirname,'./dist'),
     }
 })

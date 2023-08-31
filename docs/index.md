@@ -19,13 +19,13 @@ footer: Copyright (c) © 2023 by cd, All Rights Reserved
 ## 📦 安装
 
 ```bash
-$ pnpm install --save cd-hooks
+$ pnpm install --save cdy-hooks
 # or
-$ yarn add cd-hooks
+$ yarn add cdy-hooks
 ```
 
 ## 🔨 使用
 
 ```ts
-import { useToggle } from 'cd-hooks';
+import { useToggle } from 'cdy-hooks';
 ```

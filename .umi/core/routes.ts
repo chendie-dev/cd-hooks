@@ -271,7 +271,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "packages/hooks/src/useMemoried/index.md",
-          "updatedTime": 1693469334486,
+          "updatedTime": 1693479465000,
           "nav": {
             "path": "/hooks",
             "title": "UseMemoried"
@@ -328,7 +328,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "packages/hooks/src/useThrottle/index.md",
-          "updatedTime": 1693438883505,
+          "updatedTime": 1693479465000,
           "nav": {
             "path": "/hooks",
             "title": "UseThrottle"
@@ -380,7 +380,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "packages/hooks/src/useThrottleFn/index.md",
-          "updatedTime": 1693366102690,
+          "updatedTime": 1693479465000,
           "nav": {
             "path": "/hooks",
             "title": "UseThrottleFn"
@@ -598,7 +598,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "packages/hooks/src/useUnmountedRef/index.md",
-          "updatedTime": 1693361552731,
+          "updatedTime": 1693479465000,
           "nav": {
             "path": "/hooks",
             "title": "UseUnmountedRef"
@@ -645,7 +645,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "packages/hooks/src/useUpdate/index.md",
-          "updatedTime": 1693450303660,
+          "updatedTime": 1693479465000,
           "nav": {
             "path": "/hooks",
             "title": "UseUpdate"
@@ -687,7 +687,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "packages/hooks/src/useUpdateEffect/index.md",
-          "updatedTime": 1693458250795,
+          "updatedTime": 1693479465000,
           "nav": {
             "path": "/hooks",
             "title": "UseUpdateEffect"
