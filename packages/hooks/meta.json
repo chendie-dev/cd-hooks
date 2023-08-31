@@ -6,7 +6,7 @@
     },
     {
       "name": "useDebounce",
-      "desc": ""
+      "desc": "用来处理防抖值的 Hook。"
     },
     {
       "name": "useDebounceFn",
@@ -15,6 +15,18 @@
     {
       "name": "useLatest",
       "desc": "返回当前最新值的 Hook，可以避免闭包问题。"
+    },
+    {
+      "name": "useMemoried",
+      "desc": "持久化 function 的 Hook，理论上，可以使用 useMemoizedFn 完全代替 useCallback。"
+    },
+    {
+      "name": "useThrottle",
+      "desc": "用来处理节流值的 Hook。"
+    },
+    {
+      "name": "useThrottleFn",
+      "desc": "用来处理函数节流的 Hook。"
     },
     {
       "name": "useTitle",
@@ -27,6 +39,18 @@
     {
       "name": "useUnmount",
       "desc": "在组件卸载（unmount）时执行的 Hook。"
+    },
+    {
+      "name": "useUnmountedRef",
+      "desc": "获取当前组件是否已经卸载的 Hook。"
+    },
+    {
+      "name": "useUpdate",
+      "desc": "useUpdate 会返回一个函数，调用该函数会强制组件重新渲染。"
+    },
+    {
+      "name": "useUpdateEffect",
+      "desc": "`useUpdateEffect` 用法等同于 `useEffect`，但是会忽略首次执行，只在依赖更新时执行。"
     }
   ]
 }

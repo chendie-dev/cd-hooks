@@ -1,17 +1,16 @@
 import { __read } from "tslib";
 import { useState, useEffect } from 'react';
-function useDebounce(value, waiteTime) {
+import useDebounceFn from '../useDebounceFn';
+function useDebounce(value, options) {
   var _a = __read(useState(value), 2),
     debounced = _a[0],
     setDebounced = _a[1];
+  var run = useDebounceFn(function () {
+    setDebounced(value);
+  }, options).run;
   useEffect(function () {
-    var timeOut = setTimeout(function () {
-      setDebounced(value);
-    }, waiteTime);
-    return function () {
-      return clearTimeout(timeOut);
-    };
-  }, [value, waiteTime]);
+    run();
+  }, [value]);
   return debounced;
 }
 export default useDebounce;

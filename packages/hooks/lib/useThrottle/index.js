@@ -7,18 +7,18 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = void 0;
 var _tslib = require("tslib");
 var _react = require("react");
-var _useDebounceFn = _interopRequireDefault(require("../useDebounceFn"));
-function useDebounce(value, options) {
+var _useThrottleFn = _interopRequireDefault(require("../useThrottleFn"));
+function useThrottle(value, options) {
   var _a = (0, _tslib.__read)((0, _react.useState)(value), 2),
-    debounced = _a[0],
-    setDebounced = _a[1];
-  var run = (0, _useDebounceFn.default)(function () {
-    setDebounced(value);
+    throttled = _a[0],
+    setThrottled = _a[1];
+  var run = (0, _useThrottleFn.default)(function () {
+    setThrottled(value);
   }, options).run;
   (0, _react.useEffect)(function () {
     run();
   }, [value]);
-  return debounced;
+  return throttled;
 }
-var _default = useDebounce;
+var _default = useThrottle;
 exports.default = _default;

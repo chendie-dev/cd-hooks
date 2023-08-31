@@ -1,2 +1,3 @@
-declare function useDebounce<T>(value: T, waiteTime: number): any;
+import type { DebounceOptions } from './debounceOptions';
+declare function useDebounce<T>(value: T, options: DebounceOptions): any;
 export default useDebounce;

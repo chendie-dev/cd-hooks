@@ -28,6 +28,24 @@ Object.defineProperty(exports, "useLatest", {
     return _useLatest.default;
   }
 });
+Object.defineProperty(exports, "useMemoried", {
+  enumerable: true,
+  get: function get() {
+    return _useMemoried.default;
+  }
+});
+Object.defineProperty(exports, "useThrottle", {
+  enumerable: true,
+  get: function get() {
+    return _useThrottle.default;
+  }
+});
+Object.defineProperty(exports, "useThrottleFn", {
+  enumerable: true,
+  get: function get() {
+    return _useThrottleFn.default;
+  }
+});
 Object.defineProperty(exports, "useTitle", {
   enumerable: true,
   get: function get() {
@@ -46,6 +64,24 @@ Object.defineProperty(exports, "useUnmount", {
     return _useUnmount.default;
   }
 });
+Object.defineProperty(exports, "useUnmountedRef", {
+  enumerable: true,
+  get: function get() {
+    return _useUnmountedRef.default;
+  }
+});
+Object.defineProperty(exports, "useUpdate", {
+  enumerable: true,
+  get: function get() {
+    return _useUpdate.default;
+  }
+});
+Object.defineProperty(exports, "useUpdateEffect", {
+  enumerable: true,
+  get: function get() {
+    return _useUpdateEffect.default;
+  }
+});
 var _useToggle = _interopRequireDefault(require("./useToggle"));
 var _useBoolean = _interopRequireDefault(require("./useBoolean"));
 var _useTitle = _interopRequireDefault(require("./useTitle"));
@@ -53,3 +89,9 @@ var _useLatest = _interopRequireDefault(require("./useLatest"));
 var _useUnmount = _interopRequireDefault(require("./useUnmount"));
 var _useDebounce = _interopRequireDefault(require("./useDebounce"));
 var _useDebounceFn = _interopRequireDefault(require("./useDebounceFn"));
+var _useUnmountedRef = _interopRequireDefault(require("./useUnmountedRef"));
+var _useThrottle = _interopRequireDefault(require("./useThrottle"));
+var _useThrottleFn = _interopRequireDefault(require("./useThrottleFn"));
+var _useUpdateEffect = _interopRequireDefault(require("./useUpdateEffect"));
+var _useUpdate = _interopRequireDefault(require("./useUpdate"));
+var _useMemoried = _interopRequireDefault(require("./useMemoried"));
