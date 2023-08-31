@@ -9,7 +9,8 @@
   "main": "./lib/index.js",
   "module": "./es/index.js",
   "types": "./lib/index.d.ts",
-  "unpkg": "./dist/cdHooks.js",
+  "unpkg": "./dist/cd-hooks.js",
+  "sideEffects": false,
   "files": [
     "lib",
     "es",
@@ -44,5 +45,14 @@
     "mockjs": "^1.1.0",
     "react-drag-listview": "^0.1.6",
     "react-json-view": "^1.21.3"
-  }
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "repository": "https://github.com/chendie-dev/cd-hooks",
+  "homepage": "https://github.com/chendie-dev/cd-hooks"
 }
