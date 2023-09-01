@@ -1,30 +1,36 @@
+import { menus } from './hooks';
+
 export default {
+  exportStatic: {},
   nodeModulesTransform: {
     type: 'none',
+    exclude: [],
   },
-  history: {
-    type: 'hash'
-  },
+  publicPath: '/cdy-hooks/',
+  history: { type: 'hash' },
   extraBabelPlugins: [
     [
       'babel-plugin-import',
       {
         libraryName: '@alifd/next',
-        style: false
+        style: false,
       },
       'fusion',
     ],
   ],
+  title: 'cdy hooks',
   mode: 'site',
-  title: 'cd hooks',
-  logo: '/logo.png',
-  favicon: '/logo.png',
+  favicon: '/cdy-hooks/logo.png',
+  logo: '/cdy-hooks/logo.png',
+  dynamicImport: {},
+  manifest: {},
   hash: true,
   alias: {
     cdyHooks: process.cwd() + '/packages/hooks/src/index.ts',
+    ['cdy-hooks']: process.cwd() + '/packages/hooks/src/index.ts',
   },
   resolve: {
-    includes: [ 'packages/hooks/src','docs'],
+    includes: ['docs', 'packages/hooks/src'],
   },
   links: [
     {
@@ -36,7 +42,7 @@ export default {
   navs: [
     { title: '指南', path: '/guide' },
     { title: 'Hooks', path: '/hooks' },
-    { title: 'GitHub', path: 'https://github.com/chendie-dev/cd-hooks' },
+    { title: 'GitHub', path: 'https://github.com/chendie-dev/cdy-hooks' },
   ],
   menus: {
     '/': [
@@ -51,31 +57,6 @@ export default {
         path: '/guide',
       },
     ],
-    '/hooks': [
-      {
-        title: '生命周期',
-        children: ['useUnmount','useUnmountedRef'],
-      },
-      // {
-      //   title: '请求',
-      //   children: [''],
-      // },
-      {
-        title: '状态',
-        children: ['useToggle','useBoolean','useDebounce','useThrottle'],
-      },
-      {
-        title: 'Effect',
-        children: ['useDebounceFn','useThrottleFn','useUpdate','useUpdateEffect'],
-      },
-      {
-        title: 'DOM',
-        children: ['useTitle',],
-      },
-      {
-        title: '进阶',
-        children: ['useLatest','useMemoried'],
-      },
-    ]
-  }
-}
+    '/hooks': menus,
+  },
+};

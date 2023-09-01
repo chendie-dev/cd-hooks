@@ -4,8 +4,8 @@ import '@@/core/devScripts';
 import { plugin } from './core/plugin';
 import './core/pluginRegister';
 import { createHistory } from './core/history';
-import { ApplyPluginsType } from '/Users/chendie/Documents/project/cd-hooks/node_modules/.pnpm/@umijs+runtime@3.5.41_react@16.14.0/node_modules/@umijs/runtime';
-import { renderClient } from '/Users/chendie/Documents/project/cd-hooks/node_modules/.pnpm/@umijs+renderer-react@3.5.41_react-dom@16.14.0_react-router@5.2.0_react@16.14.0/node_modules/@umijs/renderer-react/dist/index18.js';
+import { ApplyPluginsType } from '/Users/chendie/Documents/project/cdy-hooks/node_modules/.pnpm/@umijs+runtime@3.5.41_react@16.14.0/node_modules/@umijs/runtime';
+import { renderClient } from '/Users/chendie/Documents/project/cdy-hooks/node_modules/.pnpm/@umijs+renderer-react@3.5.41_react-dom@16.14.0_react-router@5.2.0_react@16.14.0/node_modules/@umijs/renderer-react/dist/index18.js';
 import { getRoutes } from './core/routes';
 
 
@@ -23,8 +23,9 @@ const getClientRender = (args: { hot?: boolean; routes?: any[] } = {}) => plugin
         plugin,
         history: createHistory(args.hot),
         isServer: process.env.__IS_SERVER,
+        dynamicImport: true,
         rootElement: 'root',
-        defaultTitle: `cd hooks`,
+        defaultTitle: `cdy hooks`,
       },
     });
     return renderClient(opts);

@@ -8,7 +8,9 @@ module.exports = {
   setupFiles: ['./jest.setup.js', 'jest-localstorage-mock'],
   setupFilesAfterEnv: ['@testing-library/jest-dom/extend-expect'],
   transform: {
-    '^.+\\.tsx?$': ['ts-jest', { tsconfig: 'tsconfig.json' }],
+    '^.+\\.tsx?$': ['ts-jest', {
+      tsconfig: 'tsconfig.json'
+    }],
   },
   moduleNameMapper: {
     '^lodash-es$': 'lodash',
