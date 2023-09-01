@@ -1,4 +1,4 @@
-# cd-hooks
+# cdy-hooks
 
 React 业务 Hooks
 
@@ -58,7 +58,7 @@ pnpm run changelog
 
 ## 📧 联系
 
-- **cd Hooks** [https://encode-studio-fe.github.io/encode-hooks/](https://encode-studio-fe.github.io/encode-hooks/)
-- **GitHub**: [https://github.com/chendie-dev/cd-hooks](https://github.com/chendie-dev/cd-hooks)
+- **Cdy Hooks** [https://chendie-dev.github.io/cdy-hooks/](https://encode-studio-fe.github.io/encode-hooks/)
+- **GitHub**: [https://github.com/chendie-dev/cdy-hooks](https://github.com/chendie-dev/cd-hooks)
 
 </br>

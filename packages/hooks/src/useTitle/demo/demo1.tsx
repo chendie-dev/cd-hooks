@@ -1,5 +1,5 @@
 import React from 'react';
-import { useTitle } from 'cd-hooks';
+import { useTitle } from 'cdy-hooks';
 
 export default () => {
   useTitle('Page Title');

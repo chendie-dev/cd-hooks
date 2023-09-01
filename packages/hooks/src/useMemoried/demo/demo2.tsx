@@ -3,7 +3,7 @@
  * desc: 示例中 `memoizedFn` 是不会变化的，`callbackFn` 在 count 变化时变化。
  */
 import React, { useState, useCallback, useRef } from 'react'
-import useMemoried from '..'
+import {useMemoried} from 'cdy-hooks'
 import { message } from 'antd';
 
 export default () => {

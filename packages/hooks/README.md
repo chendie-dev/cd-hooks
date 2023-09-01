@@ -1,6 +1,6 @@
-# cd-hooks
+# cdy-hooks
 
-印客学院 React 业务 Hooks
+React 业务 Hooks
 
 ## ⛰️ 能力支持
 
@@ -58,7 +58,7 @@ pnpm run changelog
 
 ## 📧 联系
 
-- **encode Hooks** [https://encode-studio-fe.github.io/encode-hooks/](https://encode-studio-fe.github.io/encode-hooks/)
-- **GitHub**: [https://github.com/encode-studio-fe/encode-hooks](https://github.com/encode-studio-fe/encode-hooks)
+- **cdy Hooks** [https://chendie-dev.github.io/cdy-hooks/](https://encode-studio-fe.github.io/encode-hooks/)
+- **GitHub**: [https://github.com/chendie-dev/cdy-hooks](https://github.com/encode-studio-fe/encode-hooks)
 
 </br>

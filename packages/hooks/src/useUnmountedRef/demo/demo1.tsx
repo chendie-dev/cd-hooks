@@ -1,5 +1,5 @@
 import React,{useEffect} from 'react';
-import {useToggle, useUnmountedRef} from 'cd-hooks';
+import {useToggle, useUnmountedRef} from 'cdy-hooks';
 import { message } from 'antd';
 
 function MyComponent(){

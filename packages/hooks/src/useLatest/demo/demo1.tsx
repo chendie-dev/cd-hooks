@@ -4,7 +4,7 @@
  */
 
 import React, { useState, useEffect } from 'react';
-import { useLatest } from 'cd-hooks';
+import { useLatest } from 'cdy-hooks';
 
 export default () => {
   const [count, setCount] = useState(0);

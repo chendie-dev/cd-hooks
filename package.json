@@ -1,5 +1,5 @@
 {
-  "name": "cd-hooks",
+  "name": "cdy-hooks",
   "private": "true",
   "description": "React Hooks",
   "main": "index.js",

@@ -1,5 +1,5 @@
 import React from 'react'
-import { useToggle } from 'cd-hooks'
+import { useToggle } from 'cdy-hooks'
 
 export default ()=>{
     const [state, { toggle, setLeft, setRight }] = useToggle('hello');

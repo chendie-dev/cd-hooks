@@ -1,6 +1,6 @@
 import React from 'react'
 import {message} from 'antd'
-import {useBoolean, useUnmount} from 'cd-hooks'
+import {useBoolean, useUnmount} from 'cdy-hooks'
 
 const MyComponent=()=>{
     useUnmount(()=>{

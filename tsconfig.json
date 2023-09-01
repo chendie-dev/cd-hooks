@@ -10,10 +10,10 @@
     "baseUrl": ".",
     "paths": {
       "@/*": ["src/*"],
-      "cdHooks": ["./packages/hooks/src/index.ts"],
-      "cd-hooks": ["./packages/hooks/src/index.ts"],
-      "cdHooks/lib/*": ["./packages/hooks/src/*"],
-      "cd-hooks/lib/*": ["./packages/hooks/src/*"]
+      "cdyHooks": ["./packages/hooks/src/index.ts"],
+      "cdy-hooks": ["./packages/hooks/src/index.ts"],
+      "cdyHooks/lib/*": ["./packages/hooks/src/*"],
+      "cdy-hooks/lib/*": ["./packages/hooks/src/*"]
     },
     "allowSyntheticDefaultImports": true,
     "skipLibCheck": true,

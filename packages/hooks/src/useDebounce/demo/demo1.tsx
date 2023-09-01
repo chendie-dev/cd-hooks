@@ -1,5 +1,5 @@
 import React, {  useState } from 'react'
-import {useDebounce} from 'cd-hooks';
+import {useDebounce} from 'cdy-hooks';
 
 
 export default () => {

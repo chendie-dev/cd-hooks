@@ -1,5 +1,5 @@
 import React,{useState} from 'react'
-import {useThrottle} from 'cd-hooks'
+import {useThrottle} from 'cdy-hooks'
 
 export default()=>{
     const [value,setValue]=useState<string>('');

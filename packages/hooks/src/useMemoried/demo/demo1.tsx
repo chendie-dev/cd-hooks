@@ -1,5 +1,5 @@
 import React,{useState,useCallback} from 'react'
-import useMemoried from '..'
+import {useMemoried} from 'cdy-hooks'
 import { message } from 'antd';
 
 export default()=>{

@@ -1,5 +1,5 @@
 import React,{useState,useEffect} from 'react'
-import useUpdateEffect from '..';
+import {useUpdateEffect} from 'cdy-hooks';
 
 export default ()=>{
     const [count,setCount]=useState(0);

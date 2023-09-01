@@ -1,5 +1,5 @@
 import React from 'react'
-import {useUpdate} from 'cd-hooks'
+import {useUpdate} from 'cdy-hooks'
 export default ()=>{
     const update=useUpdate();
     return (

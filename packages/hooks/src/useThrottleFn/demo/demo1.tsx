@@ -1,5 +1,5 @@
 import React,{useState} from 'react'
-import {useThrottleFn} from 'cd-hooks'
+import {useThrottleFn} from 'cdy-hooks'
 
 export default ()=>{
     const [count,setCount]=useState(0);

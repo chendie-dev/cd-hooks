@@ -53,6 +53,6 @@
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
-  "repository": "https://github.com/chendie-dev/cd-hooks",
-  "homepage": "https://github.com/chendie-dev/cd-hooks"
+  "repository": "https://github.com/chendie-dev/cdy-hooks",
+  "homepage": "https://github.com/chendie-dev/cdy-hooks"
 }
